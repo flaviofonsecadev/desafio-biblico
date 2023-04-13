@@ -1,1 +1,71 @@
+/* Estilos para o formulário de perguntas */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-option {
+  margin-bottom: 10px;
+}
+
+.form-submit {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #e0a800;
+}
+
+/* Estilos para a seção de resultado */
+#result {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+
+#result-message {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#restart-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #17a2b8;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#restart-button:hover {
+  background-color: #11707d;
+}
 
